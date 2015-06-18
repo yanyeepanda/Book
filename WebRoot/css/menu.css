@@ -1,0 +1,73 @@
+#menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 774px;
+	height: 210px;
+	background-color:#fbfbdc;
+	background: url(../image/menu-bg.png) no-repeat;
+	position:relative; left:20%;
+}
+#menu span {
+	display: none;
+	position: absolute;
+}
+#menu a {
+	display: block;
+	text-indent: -900%;
+	position: absolute;
+	outline: none;
+}
+#menu a:hover {
+	background-position: left bottom;
+}
+#menu a:hover span{
+	display: block;
+}
+#menu .home {
+	width: 144px;
+	height: 59px;
+	background: url(../image/home.gif) no-repeat;
+	left: 96px;
+	top: 73px;
+}
+#menu .home span {
+	width: 86px;
+	height: 14px;
+	background: url(../image/home-over.gif) no-repeat;
+	left: 28px;
+	top: -20px;
+}
+#menu .sort {
+	width: 131px;
+	height: 51px;
+	background: url(../image/sort.gif) no-repeat;
+	left: 338px;
+	top: 97px;
+}
+#menu .sort span {
+	width: 70px;
+	height: 12px;
+	background: url(../image/sort-over.gif) no-repeat;
+	left: 44px;
+	top: 54px;
+}
+#menu .about {
+	width: 112px;
+	height: 47px;
+	background: url(../image/about.gif) no-repeat;
+	left: 588px;
+	top: 94px;
+}
+#menu .about span {
+	width: 102px;
+	height: 22px;
+	background: url(../image/about-over.gif) no-repeat;
+	left: 26px;
+	top: -20px;
+}
+#serachDiv {
+	position: absolute;
+	left: 186px;
+	top: 229px;
+}

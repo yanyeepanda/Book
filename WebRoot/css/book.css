@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sansserif;
+	width:60%;
+    margin:0px;
+    padding:0px;
+    background:#ffffff url(../image/bg.png) repeat-x 0px 0px;
+    }
+
+  #login {
+	position:absolute;
+	width:482px;
+	height:218px;
+	z-index:2;
+	left: 333px;
+	top: -61px;
+}
+  #bookrelease {
+	position:absolute;
+	width:172px;
+	height:116px;
+	z-index:3;
+	left: 48px;
+	top: 72px;
+}
+  #booktype {
+	position:absolute;
+	width:174px;
+	height:116px;
+	z-index:4;
+	left: 845px;
+	top: 77px;
+}
+  #typelist {
+	position:absolute;
+	width:1046px;
+	height:24px;
+	z-index:5;
+	left: 34px;
+	top: 362px;
+}
+  #search {
+	position:absolute;
+	width:1067px;
+	height:63px;
+	z-index:6;
+	left: 23px;
+	top: 397px;
+}
